@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    flex-grow: 1;
+}
+
+header {
+    min-height: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    font-size: 2em;
+}
+
+#epoch {
+    flex: 1;
+    text-align: right;
+}
+
+#recording {
+    flex: 1;
+    text-align: left;
+}
+
+#buttons {
+    flex: 1;
+    text-align: center;
+}
